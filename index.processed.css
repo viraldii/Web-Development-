@@ -1,0 +1,13 @@
+/**
+ * index.scss
+ * - Add any styles you want here!
+ */
+body {
+  font-family: didot;
+  text-align: center;
+  background: #FFEEA3;
+}
+
+#image {
+  border-radius: 10%;
+}
