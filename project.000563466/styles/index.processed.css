@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+body {
+  font-family: 'Quicksand', sans-serif;
+  place-items: center;
+  background: url("https://images.pexels.com/photos/3369526/pexels-photo-3369526.jpeg?cs=srgb&dl=pexels-brady-knoll-3369526.jpg&fm=jpg");
+  background-size: cover;
+}
+
+.center {
+  margin: auto;
+  width: 30%;
+  border: 3px solid #73AD21;
+  padding: 100px;
+  border-radius: 30%;
+}
+
+a
+.box-1 {
+  border: 15px solid;
+  border-image-source: url(https://images.pexels.com/photos/1330219/pexels-photo-1330269.jpeg?cs=srgb&dl=pexels-emiliano-arano-1330219.jpg&fm=jpg);
+  border-image-slice: 50 10;
+}
+
+.inputForm {
+  border-radius: 10px;
+  /* CSS3 */
+}
+
+#description {
+  font-style: italic;
+}
+
+.text-align-center {
+  text-align: center;
+}

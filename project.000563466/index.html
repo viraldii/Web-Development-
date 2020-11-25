@@ -1,0 +1,110 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+	<!--  Meta  -->
+  <meta charset="UTF-8">
+  <title>Developer survey</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<h1 id="title" class="text-align-center">Developer Survey</h1>
+<p id="description" class="text-align-center">Thank you for completing this developer survey</p>
+<div class="center box-1">
+	<div class="text-align-left">
+		<header>
+</header>
+		<form id="survey-form">
+	<div>
+	<label id="name-label">First Name:</label><br />
+		<input
+        type="text"
+        name="name"
+        id="name"
+        class="form-control"
+        placeholder="Enter your first name"
+        required
+      /><br />
+	</div>
+	<div>
+		<label id="email-label">Email:</label><br />
+		<input
+        type="email"
+        name="email"
+        id="email"
+        class="form-control"
+        placeholder="Enter your email"
+        required
+      />
+	</div>	
+	<div>
+		<label id="number-label">When did you start Coding:</label><br />
+		<input
+        type="number"
+        name="number"
+        id="number"
+        placeholder="Enter age"
+				min="1"
+				max="100"
+				size="50"
+        required
+      />
+	</div>
+	<div>
+		<p>What programming language did you first learn: </p>
+		<select id="dropdown">
+			<option>HTML</option>
+			<option>CSS</option>
+			<option>Ruby</option>
+			<option>Javascript</option>
+		</select>
+	</div>
+	<div class="inputForm">
+		<p>Which programming language would you like to master?</p>
+		<input type="radio" id="html" name="language" value="html">
+		<label for="html">HTML</label><br />
+		<input type="radio" id="css" name="language" value="css">
+		<label for="css">CSS</label><br />
+		<input type="radio" id="ruby" name="language" value="ruby">
+		<label for="ruby">Ruby</label><br />
+		<input type="radio" id="javascript" name="language" value="javascript">
+		<lable for="javascript">Javascript</label>
+	</div>
+	<div>
+		<p>What other hobbies do you have: </p>
+		<input type="checkbox" id="skating" name="skating" value="skating">
+		<label for="skating">Skating</label><br />
+		<input type="checkbox" id="reading" name="reading" value="reading">
+		<label for="reading">Reading</label><br />
+		<input type="checkbox" id="writing" name="writing" value="writing">
+		<label for="writing">Writing</label><br />
+		<input type="checkbox" id="painting" name="painting" value="painting">
+		<label for="painting">Painting</label><br />
+	</div>
+	<div>
+			<p>Express your self:</p>
+			<textarea id="Comments" name="w3review" rows="3" cols="40">
+</textarea>
+	</div>
+	<button id="submit" type="submit"> Submit </button>
+</form>
+	</div>
+</div>
+  <!--  Styles  -->
+  <link rel="stylesheet" href="styles/index.css">
+</head>
+<form id="survey-form"
+  
+<body>
+</body>
+  
+</html>
