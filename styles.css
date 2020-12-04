@@ -1,0 +1,69 @@
+html {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+  background-color: black;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+code {
+  font-size: 19px;
+}
+
+li {
+  justify-content: center;
+  width: 248px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.flex-container {
+  display: flex;
+  background: url("https://image-cdn.essentiallysports.com/wp-content/uploads/20200602171212/71rVqrAy5QL._SL1500_.jpg");
+  background-size: cover;
+  box-shadow: inset 0px -4px 14px 0px rgba(50, 50, 50, 0.71);
+  background-size: 100% auto;
+  position: left;
+  flex-shrink: 1;
+  border: 5px solid #333;
+  flex-direction: row;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+.flexbox-item{
+  border: 2px solid #332;
+  background-color: pink;
+}
+
+.flexbox-item-1{
+  height: 150px;
+  margin: 15px;
+  padding: 15px;
+  align-items: left;
+}
+
+.flexbox-item-2{
+  align-items: center
+  margin: 15px;
+  padding: 35px;
+  width: 950px;
+  border: 15px solid;
+  border-image-source: url(https://images.pexels.com/photos/1330219/pexels-photo-1330219.jpeg?cs=srgb&dl=pexels-emiliano-arano-1330219.jpg&fm=jpg);
+  border-image-slice: 50 10;
+}
+a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+ }
+
+ @media only screen and (max-width: 750px) {
+  body{
+    display:block;
+
+  }
